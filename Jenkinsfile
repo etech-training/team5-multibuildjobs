@@ -5,6 +5,7 @@ pipeline {
            steps {
                sh "echo "Building Artifact"
               echo "testing"
+              echo "firstline"
            }
        }
       stage('Deploy Code') {
